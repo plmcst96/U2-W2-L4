@@ -8,31 +8,31 @@ body{
 };
 
 section{
-    position: fixed;
-    left: 80%;
+
     div#first{
-        margin-right: 1em !important;
         width: 40px !important;
         height: 40px !important;
     }
 };
 
 @media  screen and (min-width: 1000px) {
-    section{left: 93%;}
+    section{left: 93% !important;}
 }
 
+@import 'scss/functions';
+@import 'scss/variables';
 
 
 
-
-
-
-
-
-
-
-
-
+$new-color: #744FFE;
+$new-theme-colors: (
+  'primary': $new-color,
+  'warning': #20C876,
+  'info':#C28135,
+  'danger':#FFEEDA,
+  'secondary':#FFAA46,
+);
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
 
 
 
