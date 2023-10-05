@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+body{
+    font-family: 'Inter', sans-serif !important;
+};
+
+#navbarNavDarkDropdown{
+    margin: 0 !important;
+};
+
+section{
+    position: fixed;
+    left: 80%;
+    div#first{
+        margin-right: 1em !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+};
+
+@media  screen and (min-width: 1000px) {
+    section{left: 93%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import 'scss/bootstrap.scss';
